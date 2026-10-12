@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+*.pt
+.DS_Store
+TXD-22 A Large-Scale Benchmark Dataset.csv

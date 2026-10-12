@@ -1,0 +1,42 @@
+{
+  "source_filename": "TXD-22 A Large-Scale Benchmark Dataset.csv",
+  "source_rows": 66000,
+  "filtered_rows": 9000,
+  "seed": 448,
+  "grouping_key": "LLM_Input (entire stripped prompt)",
+  "dataset_counts": {
+    "ChatGPT": 3000,
+    "Claude": 3000,
+    "Gemini": 3000
+  },
+  "unique_prompts": 3013,
+  "split_counts": {
+    "train": {
+      "total": 7198,
+      "unique_prompts": 2410,
+      "by_model": {
+        "ChatGPT": 2400,
+        "Claude": 2399,
+        "Gemini": 2399
+      }
+    },
+    "val": {
+      "total": 898,
+      "unique_prompts": 301,
+      "by_model": {
+        "ChatGPT": 298,
+        "Claude": 300,
+        "Gemini": 300
+      }
+    },
+    "test": {
+      "total": 904,
+      "unique_prompts": 302,
+      "by_model": {
+        "ChatGPT": 302,
+        "Claude": 301,
+        "Gemini": 301
+      }
+    }
+  }
+}
